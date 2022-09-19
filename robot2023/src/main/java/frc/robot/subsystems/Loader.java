@@ -14,6 +14,7 @@ public class Loader extends SubsystemBase {
 
   public Loader() {
     
+    
   }
 
   public void setLoader(double speed)

@@ -38,7 +38,7 @@ public class DriveTrainCommand extends CommandBase {
     double left = realTimeSpeed + realTimeTurn;
     double right = realTimeSpeed - realTimeTurn;
     
-    driveTrain.setMotors(-left, right);
+    driveTrain.setMotors(-left * 0.3, right *0.3);
   }
 
 

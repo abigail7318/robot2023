@@ -3,11 +3,9 @@
 // the WPILib BSD license file in the root directory of this project.
 
 package frc.robot.commands;
-
 import edu.wpi.first.wpilibj2.command.CommandBase;
 import frc.robot.subsystems.Intaker;
 import frc.robot.subsystems.Loader;
-
 public class unleash extends CommandBase {
   
   private final Loader loader;
@@ -29,7 +27,7 @@ public class unleash extends CommandBase {
 
     loader.setLoader(-0.6);
     intaker.setIntaker(-0.6);
-
+    
   }
 
   // Called once the command ends or is interrupted.

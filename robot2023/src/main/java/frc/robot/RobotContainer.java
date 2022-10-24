@@ -27,7 +27,7 @@ public class RobotContainer {
   private static Loader loader = new Loader();
   private static Intaker intaker = new Intaker();
   private static Canon canon = new Canon();
-
+  Networktables networkTable;
   Timer currentTime;
  
  
@@ -35,7 +35,8 @@ public class RobotContainer {
   public RobotContainer() {
     
     driveTrain.setDefaultCommand(
-   new DriveTrainCommand(driveTrain, () -> -joystick.getRawAxis(1),() -> joystick.getRawAxis(4))
+   new DriveTrainCommand(driveTrain, () -> -joystick.getRawAxis(1),() -> joystick.getRawAxis(0)
+   )
   );
     configureButtonBindings();
   }

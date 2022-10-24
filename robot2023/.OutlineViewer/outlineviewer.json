@@ -1,0 +1,9 @@
+{
+  "Connections": {
+    "open": true
+  },
+  "NetworkTables Settings": {
+    "mode": "Client"
+  },
+  "connections": true
+}
